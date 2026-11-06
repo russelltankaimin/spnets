@@ -1,0 +1,41 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packaging / build artefacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test, coverage and type-checker caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Profiling output
+*.prof
+
+# Editors and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Experiment outputs (generated instances, results)
+results/
+outputs/
+*.log
+
+# QWS 2.0 data may not be redistributed (Appendix J.1.2 licence)
+data/qws/

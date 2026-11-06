@@ -1,0 +1,13 @@
+{
+  "name": "Running example (Figure 1a)",
+  "lambda": 1.0,
+  "tasks": {
+    "A": {"length": 0.4, "p": 0.5, "q": 3, "decay": 0.8},
+    "B": {"length": 0.2, "p": [0.6, 0.3]},
+    "C": {"length": 0.3, "p": 0.4, "q": 5, "decay": 0.9},
+    "D": {"length": 0.1, "p": [0.5, 0.4]},
+    "E": {"length": 0.2, "p": [0.7, 0.2]},
+    "F": {"length": 0.3, "p": 0.6, "q": 3, "decay": 0.7}
+  },
+  "network": "Par(Series(A, C), Series(B, Par(D, E), F))"
+}
