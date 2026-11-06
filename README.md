@@ -136,3 +136,5 @@ and Q ≈ 20K:
   not an algorithm. ParAND is not part of the input grammar.
 * The 8-core parallel variant n-RT-8 is not implemented. The pure-Python tape is
   the bottleneck for large Q; a vectorised or compiled tape would be the next step.
+
+## Note: most of the code is AI-generated (by Claude) but it is checked by me though I might overlook some things.
